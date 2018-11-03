@@ -239,10 +239,8 @@
 			    	<repositoryOwner>dearcode2018</repositoryOwner>
 			    	<repositoryName>maven-repo</repositoryName>
 			    	<message>Maven artifacts for ${project.version}</message>
-			    	<userName>dearcode2018</userName>
 			    	<!--  -->
 			    	<noJekyll>true</noJekyll>
-			    	<!-- 在target下手工创建maven-repo目录 -->
 			    	<outputDirectory>${project.build.directory}/maven-repo</outputDirectory>
 			    	<!-- 分支 -->
 			    	<branch>refs/heads/master</branch>
