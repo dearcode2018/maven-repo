@@ -233,7 +233,7 @@
 			    <artifactId>site-maven-plugin</artifactId>
 			    <version>${github.plugin.site.version}</version>
 			    <configuration>
-			    	<!--  -->
+			    	<!-- 和 settings.xml中的server id对应，匹配帐号密码 -->
 			    	<server>github.repo</server>
 			    	<!-- github 用户名 -->
 			    	<repositoryOwner>dearcode2018</repositoryOwner>
