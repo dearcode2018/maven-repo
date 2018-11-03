@@ -26,7 +26,6 @@
 		<maven.plugin.dependency.version>3.1.1</maven.plugin.dependency.version>
 		<maven.plugin.war.version>3.2.2</maven.plugin.war.version>
 		<github.plugin.site.version>0.12</github.plugin.site.version>
-		<github.global.server>github.repo</github.global.server>		
 	</properties>
 
 	<!-- 项目构建 -->
@@ -238,7 +237,6 @@
 			    	<server>github.repo</server>
 			    	<!-- github 用户名 -->
 			    	<repositoryOwner>dearcode2018</repositoryOwner>
-			    	<password>xzy123321</password>
 			    	<repositoryName>maven-repo</repositoryName>
 			    	<message>Maven artifacts for ${project.version}</message>
 			    	<userName>dearcode2018</userName>
